@@ -55,7 +55,7 @@ export default function TextForm(props) {
         <p>
           {text.split(" ").length - 1} words and {text.length} characters
         </p>
-        <p>{0.008 * text.split(" ").length} Minutes read</p>
+        <p> {text.split(" ").length * 0.008} Minutes read</p>
         <p>{text.split(".").length - 1} Sentence </p>
         <br />
         <br />
